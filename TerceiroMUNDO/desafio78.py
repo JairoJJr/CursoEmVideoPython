@@ -5,3 +5,7 @@ for i in range(0, 5):
     num.append(int(input("Digite um número: ")))
 num.sort()
 print(f'O maior número foi {num[-1]} e o menor foi {num[0]}')
+
+
+
+#Esqueci de mostrar as posições, voltar para arrumar

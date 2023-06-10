@@ -18,4 +18,4 @@ print(f'O maior número foi {mainum} na posição {pmai} e o menor foi {mennum} 
 
 
 
-#Esqueci de mostrar as posições, voltar para arrumar
+

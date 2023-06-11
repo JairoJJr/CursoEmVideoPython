@@ -19,11 +19,11 @@ for i in range(0 , r):
     temp.clear()
 for j in range(0 , r):
     print('GERANDO.',end='')
-    time.sleep(1/3)
+    #time.sleep(1/3)
     print('.',end='')
-    time.sleep(1/3)
+    #time.sleep(1/3)
     print('.')
-    time.sleep(1/3)
+    #time.sleep(1/3)
     print(f'{j+1}º Jogo: {jogos[j]}')
-    time.sleep(1/3)
+    #time.sleep(1/3)
     

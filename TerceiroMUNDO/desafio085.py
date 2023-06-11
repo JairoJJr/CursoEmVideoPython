@@ -5,7 +5,7 @@ No final, mostre os valores pares e ímpares em ordem crescente.'''
 num = [[],[]]
 
 for c in range (0,7):
-    n  = int(input("Digite um número: "))
+    n  = int(input(f"Digite o {c+1}º número: "))
     if n % 2 == 0:
         num[0].append(n)
     else:
@@ -14,4 +14,6 @@ for c in range (0,7):
 num[0].sort()
 num[1].sort()
 
-print(num)
+print(f'Os números pares são {num[0]}')
+print(f'Os valores ímpares são {num[1]}')
+    

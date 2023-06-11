@@ -30,7 +30,6 @@ while True:
 
     pessoas.append(dado[:])
     dado.clear()
-    print(pessoas[0][1])
             
     resp = str(input("Inserir outra pessoa? [S/N]")).strip().lower()
     while resp not in 'sn':

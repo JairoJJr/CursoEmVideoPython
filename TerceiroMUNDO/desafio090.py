@@ -12,4 +12,5 @@ if aluno['media'] >= 7:
 else:
     aluno['situacao'] = 'Reprovado!'
 
-print(f'O aluno {aluno["nome"]} ficou com a nota {aluno["media"]:.1f} e está {aluno["situacao"]}')
+for k,v in aluno.items():
+    print(f'{k} é {v}')

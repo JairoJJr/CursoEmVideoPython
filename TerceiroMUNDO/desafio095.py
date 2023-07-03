@@ -36,6 +36,19 @@ for k, v in enumerate(time):
         print(f'{str(d):<15}' , end = ' ')
     print()
 print('=-'*20)
+
+while True:
+    busca = int(input("Mostrar dados de qual jogador? Insira o cód. (999 para parar): "))
+    if busca == 999:
+        break
+    if busca >= len(time):
+        print('Código inexistente')
+    else:
+        print(f' -- LEVANTAMENDO DO JOGADOR {time[busca]["Nome"]}:')
+        for i, g in enumerate(time[busca]['Gols Partida']):
+            print(f"Na {i+1}ª partida fez {g} Gols.")
+    print("=-"*20)
+print("FIM")
     
     
         

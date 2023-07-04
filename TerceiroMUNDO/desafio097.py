@@ -2,9 +2,9 @@
 qualquer como parâmetro e mostre uma mensagem com tamanho adaptável.'''
 
 def escreva(txt):
-    print('-'*20)
+    print('-'*len(txt))
     print(txt)
-    print('-'*20)
+    print('-'*len(txt))
 
 
 escreva(str(input("Digite uma frase: ")))
